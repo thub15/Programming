@@ -41,6 +41,7 @@ $msg6 = "Cats are similar in anatomy to the other felid species, with a strong f
 $msg7 = "Cats can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small animals."
 $msg8 = "Compared to humans, they see better in the dark (they see in near total darkness) and have a better sense of smell, but poorer color vision."
 
+
 #$speak.Speak("$msg")
 Invoke-WmiMethod -Path Win32_Process -Name Create -ArgumentList "msg * $msg" -ComputerName $computer
 Invoke-WmiMethod -Path Win32_Process -Name Create -ArgumentList "msg * $msg2" -ComputerName $computer
